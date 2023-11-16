@@ -5,6 +5,7 @@ import Home from "./Home";
 import CampusEvents from "./CampusEvents";
 import Res from "./Res";
 import LocalHotspots from "./LocalHotspots";
+import "expo-dev-client";
 
 const Stack = createStackNavigator();
 

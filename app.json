@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "UNIITEST",
-    "slug": "UNIITEST"
+    "slug": "UNIITEST",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8f8f9607-108f-4931-bc01-765937198e7d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8f8f9607-108f-4931-bc01-765937198e7d"
+    },
+    "android": {
+      "package": "com.nozii.UNIITEST"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nozii.UNIITEST"
+    }
   }
 }
