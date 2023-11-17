@@ -53,14 +53,6 @@ const Home = () => {
           <Icon name="pizza" size={25} color="black" alignItems="center" />
           <Text style={styles.buttonText}>Matrix Go</Text>
         </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigateTo("WitsMap")}
-        >
-          <Icon name="location" size={25} color="black" alignItems="center" />
-          <Text style={styles.buttonText}>WITS Map</Text>
-        </TouchableOpacity>
       </View>
     </ImageBackground>
   );
